@@ -42,13 +42,13 @@ int main(){
 
        //imprime na tela o número da carta 01.
         printf ("Carta 1: \n");
-        printf("Estado: %c \n", Estado);
-        printf("Código: %s \n", carta);
-        printf("Nome da cidade: %s \n", cidade);
-        printf("População: %d \n", Populacao);
-        printf("Área: %.2f km² \n", area);
-        printf("PIB: %.2f bilhões de reais \n",pib);
-        printf("Números de Pontos Turísticos: %d \n", pontos);
+        printf("Estado 1: %c \n", Estado);
+        printf("Código 1: %s \n", carta);
+        printf("Nome da cidade 1: %s \n", cidade);
+        printf("População 1: %d \n", Populacao);
+        printf("Área 1: %.2f km² \n", area);
+        printf("PIB 1: %.2f bilhões de reais \n",pib);
+        printf("Números de Pontos Turísticos 1: %d \n", pontos);
 
 // Código carta 02
     
@@ -56,7 +56,7 @@ int main(){
 
         //imprime a Letra conrespondente a cada estado 02.    
         printf("Insira a letra de A à H representando um dos 8 Estados da carta 2: \n");
-        scanf("%d", &Estado2);
+        scanf("%s", &Estado2);
 
 
         //imprime o código da carta escolhida 02.
@@ -87,13 +87,13 @@ int main(){
 
    //imprime na tela o número da carta 02.
         printf ("Carta 2: \n");
-        printf("Estado: %d \n", Estado2);
-        printf("Código: %s \n", carta2);
-        printf("Nome da cidade: %s \n", cidade2);
-        printf("População: %d \n", Populacao2);
-        printf("Área: %.2f km² \n", area2);
-        printf("PIB: %.2f bilhões de reais \n",pib2);
-        printf("Números de Pontos Turísticos: %d \n", pontos2);
+        printf("Estado 2: %c \n", Estado2);
+        printf("Código 2: %s \n", carta2);
+        printf("Nome da cidade 2: %s \n", cidade2);
+        printf("População 2: %d \n", Populacao2);
+        printf("Área 2: %.2f km² \n", area2);
+        printf("PIB 2: %.2f bilhões de reais \n",pib2);
+        printf("Números de Pontos Turísticos 2: %d \n", pontos2);
 
     
 return 0;
